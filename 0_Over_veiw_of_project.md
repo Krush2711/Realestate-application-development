@@ -2,7 +2,7 @@
 
 Final Requirement :
     Analytics : 
-        1. Speactial Aanalyis : Maps - sectors (100 + sectors) - secotors price Avg 
+        1. Special Aanalyis : Maps - sectors (100 + sectors) - secotors price Avg 
         2. Price distribution
         3. Price vs sq.feet
         4. No of rooms pie chart 
