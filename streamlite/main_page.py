@@ -3,12 +3,18 @@ import pickle
 import numpy as np 
 import pandas as pd 
 
+import os
 
-with open('pipeline.pkl', 'rb') as f :
-    pipeline= pickle.load(f)
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-with open('df.pkl', 'rb') as fd:
-    df = pickle.load(fd)   
+pipeline_path = os.path.join(BASE_DIR, "pipeline.pkl")
+df_path = os.path.join(BASE_DIR, "df.pkl")
+
+with open(pipeline_path, "rb") as f:
+    pipeline = pickle.load(f)
+
+with open(df_path, "rb") as f:
+    df = pickle.load(f)
 
 list = sorted(df['sector'].unique().tolist())
 
