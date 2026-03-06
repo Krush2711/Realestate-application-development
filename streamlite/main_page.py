@@ -4,10 +4,10 @@ import numpy as np
 import pandas as pd 
 
 
-with open('../pipeline.pkl', 'rb') as f :
+with open('pipeline.pkl', 'rb') as f :
     pipeline= pickle.load(f)
 
-with open('../df.pkl', 'rb') as fd:
+with open('df.pkl', 'rb') as fd:
     df = pickle.load(fd)   
 
 list = sorted(df['sector'].unique().tolist())
