@@ -1,6 +1,6 @@
-streamlit==1.32.0
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.2
-category-encoders==2.6.3
-xgboost==2.0.3
+streamlit
+pandas
+numpy
+scikit-learn
+category-encoders
+xgboost
